@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29e62683edc5ce4498a1488d54c68969, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  WaitForEnemiesKill: 1
+  playerProtectShrines:
+  - Count: 2
+    ProtectShrinePrefab: {fileID: 1449035496685252, guid: a24122156c1fab047a5527df359ac945,
+      type: 2}
+  - Count: 2
+    ProtectShrinePrefab: {fileID: 1219932243891466, guid: f571bd978db7dfe4ab12335fb7cf65a8,
+      type: 2}
+  - Count: 2
+    ProtectShrinePrefab: {fileID: 1880504935533532, guid: ebe6f615abc3c784bb70cada360b9eba,
+      type: 2}
+  waves:
+  - EnemyPrefabs:
+    - {fileID: 1607175716970256, guid: 341b2632451d0234cb68fc9e070d3c9d, type: 2}
+    EnemyTypeCount: 01000000
+    SpawnCount: 4
+    SpawnDelay: 4
+    SpawnDelayDowner: 0.5
+  - EnemyPrefabs:
+    - {fileID: 1607175716970256, guid: 341b2632451d0234cb68fc9e070d3c9d, type: 2}
+    - {fileID: 1799741011793784, guid: e96db138a99ed644bafa7e00c2bd41d1, type: 2}
+    EnemyTypeCount: 0100000001000000
+    SpawnCount: 5
+    SpawnDelay: 8
+    SpawnDelayDowner: 1
+  - EnemyPrefabs:
+    - {fileID: 1607175716970256, guid: 341b2632451d0234cb68fc9e070d3c9d, type: 2}
+    - {fileID: 1799741011793784, guid: e96db138a99ed644bafa7e00c2bd41d1, type: 2}
+    - {fileID: 1939296316534682, guid: b35b53a7f06022f4680ea97d53e0c95c, type: 2}
+    EnemyTypeCount: 010000000200000001000000
+    SpawnCount: 5
+    SpawnDelay: 8
+    SpawnDelayDowner: 1
